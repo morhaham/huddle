@@ -10,6 +10,7 @@
 
 html {
     height: auto;
+    height: 100%;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
     color: #FFFFFF;
     background-color: hsl(257, 40%, 49%);
     background-image: url('../images/bg-desktop.svg');
+    height: 100%;
 }
 
 h1,h2,h3 {
@@ -40,8 +42,8 @@ a {
 
 .wrapper {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 0;
+    height: 100%;
+    margin: 0 auto;    
 }
 
 .row {
