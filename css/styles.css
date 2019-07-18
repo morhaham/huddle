@@ -106,7 +106,7 @@ footer .social a {
 
 /* Media queries */
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1480px) {
 
     body {
         background-image: url('../images/bg-mobile.svg');
@@ -126,52 +126,60 @@ footer .social a {
     .row {
         display: flex;
         flex-direction: column;
+        padding-top: 10vh;
     }
 
     .col { 
         text-align: center;
-        margin: 0;
+    }
+
+    #main .col:nth-child(2) {
         padding: 0;
+        padding-top: 5vh;
     }
 
 
     header img {
-        width: 50vw;
+        width: 35vw;
+        padding-left: 20px;
     }
     #main img {
-        width: 90%;
+        width: 80vw;
     }
 
     #main a {
         margin: 0 auto;
-        font-size: 4vw;   
-        width: 30vw;
-        height: 10vw;
-        line-height: 10vw;
+        font-size: 3vw;   
+        width: 40vw;
+        height: 9vw;
+        line-height: 9vw;
     }
 
     #main h1 {
         white-space: normal; 
+        padding-bottom: 4vh;
     }
     #main p {
         white-space: normal; 
-        padding-bottom: 50px;
+        padding-bottom: 4vh;
+        width: 80vw;
+        margin: 0 auto;
     }
     footer {
-        margin-top: 100px;
+        margin-top: 10vh;
         justify-content: center;
     }
 
     footer .social {
         padding:0;
         display: flex;
-        width: 40vw;
+        width: 30vw;
         justify-content: space-between;
     }
     
     footer .social a {
-        font-size: 3vw;
-        padding: 2.5vw;
+        font-size: 2vw;
+        padding: 1.5vw;
         margin: 0;
     }
 
